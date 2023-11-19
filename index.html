@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>Assignment- Week 3</title>
+  </head>
+  <body>
+    <h1>
+      Assignment
+    </h1>
+    <h2>1.Button</h2>
+    <button type="button" class="btn">Click me!</button>
+    <h3>2.Forms</h3>
+    <form>
+      <fieldset>
+        <legend>Booking Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your  name" required />
+        <label for="email">Email:</label>
+        <input type="email" placeholder="abc@mail.com" required />
+        <label for="message">Message:</label>
+        <textarea type="message" name="message" required></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Appointment</legend>
+        <input type="checkbox" id="appointment" required />
+        <label for="appointment">Book an appointment</label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+    <h4>3.Menu</h4>
+    <nav>
+      <ul>
+        <li><a href="https://github.com" target="_blank">Github</a></li>
+        <li><a href="https://twitter.com" target="_blank">X (Twitter)</a></li>
+        <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+      </ul>
+    </nav>
+    <h5>4.Cards</h5>
+    <div class="card">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg"
+        alt="nature_img"
+      />
+      <div class="container">
+        <h4><b>Nature</b></h4>
+        <p>Example card info</p>
+      </div>
+    </div>
+    <h5>5. Dropdown Menu</h5>
+    <div class="dropdown">
+      <button class="menubtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#" target="_blank">Github</a>
+        <a href="#" target="_blank">Twitter</a>
+        <a href="#" target="_blank">Youtube</a>
+      </div>
+    </div>
+    <h4>6.Alerts</h4>
+    <div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >&times;</span
+      >
+      <strong>Error message!</strong>
+    </div>
+    <div class="success">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >&times;</span
+      >
+      <strong>Success message!</strong>
+    </div>
+  </body>
+</html>
