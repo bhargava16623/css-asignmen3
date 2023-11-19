@@ -246,6 +246,7 @@ img {
   font-family: "Courier New", Courier, monospace;
   border-radius: 8px;
   border-color: #770d06;
+  width: 25%;
 }
 
 .closebtn {
@@ -271,4 +272,5 @@ img {
   border-radius: 8px;
   border-color: #770d06;
   margin-top: 5px;
+  width: 25%;
 }
